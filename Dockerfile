@@ -1,4 +1,4 @@
-FROM eclipse-temurin:23-jre-jammy
+FROM eclipse-temurin:23-jre
 WORKDIR /app
 EXPOSE 8080
 
