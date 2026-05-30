@@ -1,5 +1,4 @@
-# Usamos una imagen ligera de Java 17 solo para ejecutar
-FROM eclipse-temurin:17-jre-jammy
+FROM eclipse-temurin:23-jre-jammy
 WORKDIR /app
 EXPOSE 8080
 
