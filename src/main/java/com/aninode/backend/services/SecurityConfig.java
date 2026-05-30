@@ -1,4 +1,4 @@
-package com.aninode.backend.config;
+package com.aninode.backend.services;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
