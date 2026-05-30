@@ -6,7 +6,9 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "user_anime")
+@Table(name = "user_anime", uniqueConstraints = {
+        @UniqueConstraint(columnNames = {"user_id", "anime_id_api"})
+})
 public class UserAnime {
 
     @Id
